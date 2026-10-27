@@ -1,0 +1,19 @@
+{
+  "pages": 20,
+  "required_numbered_subsections": 21,
+  "last_section": "4.4 Key System Components",
+  "all_rendered_fonts": {
+    "AAAAAA+TimesNewRomanPSMT": 23050,
+    "AAAAAA+TimesNewRomanPS-BoldMT": 2154,
+    "AAAAAA+TimesNewRomanPS-ItalicMT": 168
+  },
+  "all_rendered_sizes": {
+    "12.0": 24139,
+    "15.0": 1233
+  },
+  "contents_and_captions": "verified",
+  "text_bounds": "verified",
+  "later_template_sections": "absent",
+  "frontend_and_backend": "covered in sections 1.4, 4.2, 4.3 and 4.4",
+  "file_bytes": 588377
+}

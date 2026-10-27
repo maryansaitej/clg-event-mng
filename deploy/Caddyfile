@@ -1,0 +1,21 @@
+# Set APP_DOMAIN to your real domain. Caddy obtains and renews TLS certificates.
+{$APP_DOMAIN} {
+ encode zstd gzip
+ request_body {
+  max_size 1MB
+ }
+ handle /api/* {
+  reverse_proxy 127.0.0.1:8080
+ }
+ handle {
+  root * /srv/campus/frontend/dist
+  header {
+   X-Content-Type-Options nosniff
+   Referrer-Policy strict-origin-when-cross-origin
+   Permissions-Policy "camera=(), microphone=(), geolocation=()"
+   Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'"
+  }
+  try_files {path} /index.html
+  file_server
+ }
+}

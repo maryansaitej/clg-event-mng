@@ -1,0 +1,1279 @@
+{
+  "headings": [
+    [
+      "Abstract",
+      7
+    ],
+    [
+      "1. Introduction",
+      8
+    ],
+    [
+      "1.1 Background",
+      8
+    ],
+    [
+      "1.2 Motivation",
+      8
+    ],
+    [
+      "1.3 Project Scope",
+      9
+    ],
+    [
+      "1.4 Technologies Used",
+      9
+    ],
+    [
+      "2. Problem Statement",
+      10
+    ],
+    [
+      "2.1 Limitations of Existing Systems",
+      10
+    ],
+    [
+      "2.2 Need for an Integrated Event and Club Platform",
+      10
+    ],
+    [
+      "2.3 Importance of Data Privacy and User Experience",
+      11
+    ],
+    [
+      "2.4 Lack of Personalization and Adaptability",
+      11
+    ],
+    [
+      "2.5 Integration and Scalability Issues",
+      11
+    ],
+    [
+      "2.6 Use Case Overview",
+      12
+    ],
+    [
+      "3. Literature Review",
+      13
+    ],
+    [
+      "3.1 Evolution of Digital Event Management Systems",
+      13
+    ],
+    [
+      "3.2 Adaptive and Personalized Event Management Models",
+      13
+    ],
+    [
+      "3.3 Data Visualization and Insight Generation Systems",
+      13
+    ],
+    [
+      "3.4 Integration of Security Features in Digital Applications",
+      13
+    ],
+    [
+      "3.5 Comparison to Existing Tools",
+      14
+    ],
+    [
+      "3.6 Research Gaps",
+      14
+    ],
+    [
+      "3.7 Conceptual Framework Model",
+      15
+    ],
+    [
+      "4. Proposed Model",
+      16
+    ],
+    [
+      "4.1 System Overview",
+      16
+    ],
+    [
+      "4.2 System Architecture",
+      17
+    ],
+    [
+      "4.3 System File Structure",
+      18
+    ],
+    [
+      "4.4 Key System Components",
+      20
+    ]
+  ],
+  "figures": [
+    [
+      "Figure 1. UML use case overview",
+      12
+    ],
+    [
+      "Figure 2. Conceptual framework model",
+      15
+    ],
+    [
+      "Figure 3. System architecture and technology layers",
+      17
+    ]
+  ],
+  "tables": [
+    [
+      "Table 1. Comparison of event-management approaches",
+      14
+    ]
+  ],
+  "positions": [
+    [
+      1,
+      728,
+      711,
+      "Web Programming Course End Project Report On"
+    ],
+    [
+      1,
+      703,
+      693,
+      ""
+    ],
+    [
+      1,
+      693,
+      673,
+      "College Event Management Website"
+    ],
+    [
+      1,
+      663,
+      653,
+      ""
+    ],
+    [
+      1,
+      653,
+      636,
+      "in"
+    ],
+    [
+      1,
+      628,
+      608,
+      "COMPUTER SCIENCE AND ENGINEERING"
+    ],
+    [
+      1,
+      598,
+      581,
+      "(IoT with Cyber Security Including Blockchain Technology)"
+    ],
+    [
+      1,
+      573,
+      567,
+      ""
+    ],
+    [
+      1,
+      567,
+      550,
+      "by"
+    ],
+    [
+      1,
+      542,
+      522,
+      ""
+    ],
+    [
+      1,
+      522,
+      488,
+      "Names with<br/>Roll numbers"
+    ],
+    [
+      1,
+      480,
+      458,
+      ""
+    ],
+    [
+      1,
+      458,
+      441,
+      "Under the Supervision of"
+    ],
+    [
+      1,
+      433,
+      416,
+      "<b>N. Sujata Gupta</b>"
+    ],
+    [
+      1,
+      408,
+      391,
+      "Assistant Professor"
+    ],
+    [
+      1,
+      383,
+      366,
+      "Department of Computer Engineering and Technology"
+    ],
+    [
+      1,
+      358,
+      346,
+      ""
+    ],
+    [
+      1,
+      346,
+      264,
+      ""
+    ],
+    [
+      1,
+      264,
+      247,
+      ""
+    ],
+    [
+      1,
+      247,
+      230,
+      "Department of Computer Engineering and Technology"
+    ],
+    [
+      1,
+      222,
+      202,
+      "Chaitanya Bharathi Institute of Technology"
+    ],
+    [
+      1,
+      192,
+      175,
+      "(Autonomous)"
+    ],
+    [
+      2,
+      728,
+      711,
+      "(Affiliated to Osmania University, Hyderabad)"
+    ],
+    [
+      2,
+      703,
+      686,
+      "Hyderabad, TELANGANA (INDIA) - 500 075"
+    ],
+    [
+      2,
+      678,
+      661,
+      "[2025-2026]"
+    ],
+    [
+      2,
+      653,
+      625,
+      ""
+    ],
+    [
+      2,
+      625,
+      541,
+      ""
+    ],
+    [
+      2,
+      541,
+      513,
+      ""
+    ],
+    [
+      2,
+      513,
+      493,
+      "CERTIFICATE"
+    ],
+    [
+      2,
+      483,
+      398,
+      "This is to certify that the Course End Project titled <b>\"College Event Management Website\"</b> is a bonafide work carried out by the students named on the title page, of the Department of Computer Engineering and Technology, Chaitanya Bharathi Institute of Technology, Hyderabad, Telangana (India), submitted in partial fulfilment of the requirements for the award of the degree of Bachelor of Engineering in the academic year 2025-2026."
+    ],
+    [
+      2,
+      388,
+      346,
+      ""
+    ],
+    [
+      2,
+      338,
+      319,
+      "Coordinators"
+    ],
+    [
+      2,
+      309,
+      275,
+      "Ms. N. Sujata Gupta<br/>Assistant Professor, Department of CET, CBIT"
+    ],
+    [
+      2,
+      265,
+      233,
+      ""
+    ],
+    [
+      2,
+      233,
+      193,
+      ""
+    ],
+    [
+      3,
+      720,
+      701,
+      "Table of Contents"
+    ],
+    [
+      3,
+      691,
+      216,
+      ""
+    ],
+    [
+      4,
+      720,
+      701,
+      "Table of Contents (continued)"
+    ],
+    [
+      4,
+      691,
+      341,
+      ""
+    ],
+    [
+      5,
+      720,
+      701,
+      "List of Figures"
+    ],
+    [
+      5,
+      691,
+      591,
+      ""
+    ],
+    [
+      6,
+      720,
+      701,
+      "List of Tables"
+    ],
+    [
+      6,
+      691,
+      641,
+      ""
+    ],
+    [
+      7,
+      720,
+      701,
+      "Abstract"
+    ],
+    [
+      7,
+      691,
+      606,
+      "College events are often announced through notices, messages and separate registration forms. This arrangement makes it difficult for students to identify relevant activities and for organizers to maintain consistent participant and fee records. The College Event Management Website, implemented as Campus Commons, brings these activities into a common platform for students, clubs and administrators."
+    ],
+    [
+      7,
+      596,
+      511,
+      "Students can create an account, maintain a profile, browse clubs and events, join clubs, register for activities and review their registrations. Clubs maintain organizational profiles and create events with specified dates, venues, fees, capacities and eligibility conditions. Administrators review club applications, inspect user records and moderate events. Each role receives an interface suited to its responsibilities."
+    ],
+    [
+      7,
+      501,
+      416,
+      "The frontend uses React, TypeScript, Vite and Tailwind CSS. A Java Spring Boot backend provides application services, applies Spring Security access controls and manages records through Spring Data JPA. PostgreSQL is the main database, with Supabase PostgreSQL available as a compatible hosting option. The frontend presents information and collects input, while the backend validates requests and maintains the shared records."
+    ],
+    [
+      7,
+      406,
+      338,
+      "The platform supports both free and fee-based events. Free registrations are confirmed directly. The current fee-payment facility is a development simulator that demonstrates payment status and cancellation behaviour without collecting real money. Public event information is separated from personal records and administrative controls."
+    ],
+    [
+      7,
+      328,
+      243,
+      "This report reviews the project background, problem statement, relevant approaches and proposed model. It explains the principal components, conceptual framework, architecture and source organization at an overview level. The result is a coordinated design for college event administration that gives students clear access to activities and gives organizers a common place to manage participation."
+    ],
+    [
+      7,
+      233,
+      216,
+      "<b>Keywords:</b> college event management, clubs, React, Java, Spring Boot, PostgreSQL."
+    ],
+    [
+      8,
+      720,
+      701,
+      "1. Introduction"
+    ],
+    [
+      8,
+      691,
+      606,
+      "A college event involves more than publishing a title and date. The organizer must communicate eligibility, reserve a venue, control participation and account for registration fees. Students need an accurate description of the activity and a reliable indication that their booking has been accepted. The proposed website connects these responsibilities through a shared record of clubs, events and registrations."
+    ],
+    [
+      8,
+      588,
+      569,
+      "1.1 Background"
+    ],
+    [
+      8,
+      559,
+      474,
+      "Campus activities include technical workshops, cultural programmes, sports meetings and student-club sessions. Their administration commonly involves a mixture of announcements, forms and spreadsheets. When the same event is represented in several places, a revised deadline or venue may not reach every participant. A centralized website can make the published event record the reference point for students and organizers."
+    ],
+    [
+      8,
+      464,
+      396,
+      "The project uses a browser interface backed by a Java application service. Public information remains easy to discover, while personal registrations and organizer controls require authentication. The database stores durable records so that a page refresh or a change of browser does not remove a student's booking history."
+    ],
+    [
+      8,
+      378,
+      359,
+      "1.2 Motivation"
+    ],
+    [
+      8,
+      349,
+      264,
+      "The primary motivation is to reduce manual coordination while preserving clear accountability. Students should be able to distinguish an available event from a full or closed event before attempting registration. Clubs should be able to publish complete information and review participants without maintaining duplicate lists. Administrators need a way to review organizations and respond to inappropriate or cancelled events."
+    ],
+    [
+      8,
+      254,
+      203,
+      "The project also demonstrates how a responsive frontend can work with a structured backend. Clear forms make the system approachable, while common records and server-side checks make its results dependable. Both aspects are needed for a practical college platform."
+    ],
+    [
+      9,
+      720,
+      701,
+      "1.3 Project Scope"
+    ],
+    [
+      9,
+      691,
+      640,
+      "The scope covers one college and three roles: student, club and administrator. It includes account access, club membership, event publication, registration and a simulated fee-payment facility. Event eligibility is evaluated against the department and study year entered in a student profile."
+    ],
+    [
+      9,
+      630,
+      596,
+      "&#8226; <b>Students:</b> register or log in, browse clubs and events, join clubs, register for events, complete the available fee step and view registration history."
+    ],
+    [
+      9,
+      586,
+      552,
+      "&#8226; <b>Clubs:</b> register or log in, maintain a profile, create and edit events, publish approved activities and manage student registrations."
+    ],
+    [
+      9,
+      542,
+      508,
+      "&#8226; <b>Administrators:</b> review users and clubs, approve or reject club applications, and moderate event publication."
+    ],
+    [
+      9,
+      498,
+      464,
+      "The scope is limited to the basic functions described above. Live financial settlement and institutional identity verification are outside the current implemented scope."
+    ],
+    [
+      9,
+      446,
+      427,
+      "1.4 Technologies Used"
+    ],
+    [
+      9,
+      417,
+      366,
+      "<b>React and TypeScript</b> implement reusable pages, typed information models and interactive forms. <b>Vite</b> supports frontend development and building the browser application. <b>Tailwind CSS</b> provides styling utilities for consistent, responsive layouts."
+    ],
+    [
+      9,
+      356,
+      305,
+      "<b>Java and Spring Boot</b> provide the backend runtime and application structure. <b>Spring Security</b> controls authentication and protected operations. <b>Spring Data JPA</b> connects the application model to the database and supports record retrieval and updates."
+    ],
+    [
+      9,
+      295,
+      244,
+      "<b>PostgreSQL</b> stores accounts, clubs, events, memberships and registrations. <b>Supabase PostgreSQL</b> is a compatible managed database option. In either arrangement, the Java backend remains responsible for application rules and access control."
+    ],
+    [
+      10,
+      720,
+      701,
+      "2. Problem Statement"
+    ],
+    [
+      10,
+      691,
+      623,
+      "The problem is to provide a consistent event-management process in which published information, eligibility, remaining capacity and payment status agree across all user interfaces. The system must prevent unauthorized changes, duplicate registrations and acceptance of bookings after an event becomes unavailable."
+    ],
+    [
+      10,
+      613,
+      545,
+      "A student should be able to identify the organizer, understand participation conditions and determine whether a registration is confirmed. An organizer should be able to manage an event without collecting the same details through several channels. Administrative review should operate on the same club and event records used by the rest of the platform."
+    ],
+    [
+      10,
+      527,
+      508,
+      "2.1 Limitations of Existing Systems"
+    ],
+    [
+      10,
+      498,
+      413,
+      "A workflow based on separate notices, forms and payment references requires organizers to reconcile records manually. Capacity may be checked only after submissions arrive, and students may be uncertain whether submitting a form confirms a seat. General-purpose tools can support individual tasks, but college-specific approval and eligibility rules require additional coordination."
+    ],
+    [
+      10,
+      403,
+      352,
+      "Fragmented records also make changes harder to communicate. A date may be updated in an announcement while an older form remains accessible. Participant lists can contain repeated entries, and fee information may need to be matched manually with the corresponding student."
+    ],
+    [
+      10,
+      334,
+      315,
+      "2.2 Need for an Integrated Event and Club Platform"
+    ],
+    [
+      10,
+      305,
+      237,
+      "A shared platform connects an approved club to its published activities and links each student to a registration record. Schedule, fee and venue information is presented through the same event page. Organizers receive participant records from the booking system, reducing the need to copy data between unrelated tools."
+    ],
+    [
+      10,
+      227,
+      176,
+      "Integration also clarifies responsibility. Clubs prepare and manage their activities, students maintain their own participation records, and administrators review organizations and moderate events. The website supports these responsibilities within one coordinated interface."
+    ],
+    [
+      11,
+      720,
+      701,
+      "2.3 Importance of Data Privacy and User Experience"
+    ],
+    [
+      11,
+      691,
+      640,
+      "Student names, contact details, college identifiers and booking histories should be disclosed only to authorized users. Authentication alone is insufficient: the backend must also verify whether a club owns an event or a student owns a registration before allowing access to it."
+    ],
+    [
+      11,
+      630,
+      562,
+      "The interface must explain validation errors, payment status and cancellation outcomes in language that students can act upon. Labelled fields, visible focus, readable status text and consistent navigation help users complete tasks with fewer misunderstandings. Private account details do not belong in public event listings."
+    ],
+    [
+      11,
+      544,
+      525,
+      "2.4 Lack of Personalization and Adaptability"
+    ],
+    [
+      11,
+      515,
+      464,
+      "A single undifferentiated event list can obscure relevant opportunities. The website provides category, date and fee filters, club membership and a student dashboard of upcoming commitments. Department and year rules tailor eligibility to the selected event."
+    ],
+    [
+      11,
+      454,
+      403,
+      "These features use explicit preferences and stated participation rules. Students can choose relevant activities without depending on automated predictions. The current application does not infer interests through machine learning or alter eligibility based on browsing behaviour."
+    ],
+    [
+      11,
+      385,
+      366,
+      "2.5 Integration and Scalability Issues"
+    ],
+    [
+      11,
+      356,
+      305,
+      "Payment services and college identity systems introduce external dependencies. The project keeps payment behaviour behind a separate provider interface and retains application rules in the Java backend. This makes the boundary between the website and an external service clear."
+    ],
+    [
+      11,
+      295,
+      227,
+      "Organized modules, bounded result lists and suitable database queries help the platform handle growing records. The present design is intended for a single college and a single backend instance. Wider operation would require further infrastructure and evaluation, rather than being assumed from the architecture alone."
+    ],
+    [
+      12,
+      720,
+      701,
+      "2.6 Use Case Overview"
+    ],
+    [
+      12,
+      691,
+      623,
+      "Students discover and register for activities; clubs prepare and operate them; administrators approve organizations and moderate publication. Public browsing is available before login. Actions that change records require the appropriate authenticated role. Figure 1 summarizes these responsibilities."
+    ],
+    [
+      12,
+      613,
+      258,
+      ""
+    ],
+    [
+      12,
+      252,
+      236,
+      "Figure 1. UML use case overview"
+    ],
+    [
+      12,
+      216,
+      197,
+      "Example Use Case Scenario"
+    ],
+    [
+      12,
+      187,
+      119,
+      "A second-year student selects a workshop and reviews its fee, date, venue and eligibility. The backend checks the profile and available capacity before creating a registration. A free event is confirmed directly; a fee-based event proceeds to the available simulated payment step. The student can review the resulting status in the registration workspace."
+    ],
+    [
+      12,
+      109,
+      58,
+      "The organizing club sees the same registration in its participant list. An administrator can review the club's approval status and moderate the event when necessary. The scenario connects discovery, participation and administration without separate lists."
+    ],
+    [
+      13,
+      720,
+      701,
+      "3. Literature Review"
+    ],
+    [
+      13,
+      691,
+      623,
+      "This review examines approaches relevant to event administration and the technical concepts used by the project. It compares workflow capabilities rather than ranking commercial products. The review supports the choice of an integrated website with a separate frontend, backend and database."
+    ],
+    [
+      13,
+      605,
+      586,
+      "3.1 Evolution of Digital Event Management Systems"
+    ],
+    [
+      13,
+      576,
+      508,
+      "Online forms simplify collection, but a form alone does not inherently enforce event capacity or publication authority. Component-based interfaces and application services allow discovery, booking and management to use shared records. The React interface follows this component-based approach."
+    ],
+    [
+      13,
+      490,
+      471,
+      "3.2 Adaptive and Personalized Event Management Models"
+    ],
+    [
+      13,
+      461,
+      410,
+      "Selected categories, joined clubs and upcoming registrations provide a transparent form of personalization. These explicit choices make relevant activities easier to locate. The project adopts this approach because its results can be understood and controlled by users."
+    ],
+    [
+      13,
+      392,
+      373,
+      "3.3 Data Visualization and Insight Generation Systems"
+    ],
+    [
+      13,
+      363,
+      295,
+      "Event cards summarize schedule, venue, fee and availability. Workspaces place registration status and participant information near the actions that use them. This presentation helps students and clubs interpret records without reading raw database values. Detailed attendance analytics are not included in this basic model."
+    ],
+    [
+      13,
+      277,
+      258,
+      "3.4 Integration of Security Features in Digital Applications"
+    ],
+    [
+      13,
+      248,
+      180,
+      "Access control should be applied to both the user's role and the particular record being requested. Spring Security supports the authentication boundary, while backend services check ownership and participation rules. These responsibilities complement the frontend: hiding a button alone does not protect the underlying operation."
+    ],
+    [
+      13,
+      170,
+      119,
+      "The selected approach therefore combines an understandable interface with controlled access to shared records. Account security, appropriate disclosure and clear feedback remain part of normal application behaviour rather than separate user tasks."
+    ],
+    [
+      14,
+      720,
+      701,
+      "3.5 Comparison to Existing Tools"
+    ],
+    [
+      14,
+      691,
+      640,
+      "Table 1 compares common organizational approaches with the proposed website. The entries describe how work is coordinated; they do not represent measured rankings of commercial products."
+    ],
+    [
+      14,
+      624,
+      608,
+      "Table 1. Comparison of event-management approaches"
+    ],
+    [
+      14,
+      596,
+      290,
+      ""
+    ],
+    [
+      14,
+      290,
+      278,
+      ""
+    ],
+    [
+      14,
+      270,
+      251,
+      "3.6 Research Gaps"
+    ],
+    [
+      14,
+      241,
+      190,
+      "The main gap is between collecting registrations and maintaining a dependable process. Independent notices and forms do not automatically connect club approval, event availability, participant records and fee status."
+    ],
+    [
+      14,
+      180,
+      163,
+      "&#8226; A shared and current source of event information is needed."
+    ],
+    [
+      14,
+      153,
+      136,
+      "&#8226; Publication and registration must follow consistent rules."
+    ],
+    [
+      14,
+      126,
+      109,
+      "&#8226; Personal records need restricted access and clear status feedback."
+    ],
+    [
+      14,
+      99,
+      65,
+      "These are design requirements identified through workflow analysis. They support the proposed model without claiming a campus-wide user study or measured participation improvement."
+    ],
+    [
+      15,
+      720,
+      701,
+      "3.7 Conceptual Framework Model"
+    ],
+    [
+      15,
+      691,
+      623,
+      "The conceptual framework connects user input to identity checks, domain operations and shared records. Each operation produces a response suited to the requesting role. Club membership, event registration and payment status remain separate concepts so that joining a club does not automatically register a student for its events."
+    ],
+    [
+      15,
+      613,
+      275,
+      ""
+    ],
+    [
+      15,
+      269,
+      253,
+      "Figure 2. Conceptual framework model"
+    ],
+    [
+      15,
+      233,
+      214,
+      "Key Framework Features"
+    ],
+    [
+      15,
+      204,
+      136,
+      "<b>Modularity:</b> account access, clubs, events and registrations have distinct responsibilities. <b>Shared records:</b> the database provides a consistent basis for views across the platform. <b>User-centred interaction:</b> forms and status messages support the main student and organizer tasks."
+    ],
+    [
+      15,
+      126,
+      75,
+      "<b>Controlled access:</b> the backend authorizes changes before saving them. <b>Maintainability:</b> the interface and external payment integration can be changed without transferring authority over event fees or capacity to the browser."
+    ],
+    [
+      16,
+      720,
+      701,
+      "4. Proposed Model"
+    ],
+    [
+      16,
+      691,
+      623,
+      "The proposed model is a three-tier web application with public discovery and authenticated workspaces. A React single-page application communicates with a Java Spring Boot backend through JSON APIs. PostgreSQL holds the shared records. The design separates user interaction from application rules and storage."
+    ],
+    [
+      16,
+      613,
+      562,
+      "This separation gives each layer a clear responsibility. The frontend organizes pages and collects input. The backend validates requests, identifies the permitted operation and returns the result. The database retains records needed by students, clubs and administrators."
+    ],
+    [
+      16,
+      544,
+      525,
+      "4.1 System Overview"
+    ],
+    [
+      16,
+      515,
+      464,
+      "Students, clubs and administrators share the same catalog but receive different controls. A new club begins in a pending state and requires approval before publication. Published events accept registrations only when participation conditions are met and capacity remains available."
+    ],
+    [
+      16,
+      454,
+      403,
+      "Students use event pages to inspect schedule, venue, fee and eligibility details. Their workspace presents joined clubs and registration history. Clubs use their workspace to maintain a profile, prepare activities and inspect participant records for their own events."
+    ],
+    [
+      16,
+      393,
+      342,
+      "Administrators review clubs, inspect user records and moderate events. Approval affects which organizers can publish, while moderation affects public event visibility. These decisions operate on the same records used by the other workspaces."
+    ],
+    [
+      16,
+      332,
+      281,
+      "The current payment facility demonstrates fee-related states without collecting real money. This boundary is visible in the development application. The overview therefore distinguishes the implemented registration functions from live financial settlement."
+    ],
+    [
+      16,
+      271,
+      220,
+      "The model is intended to make event administration coherent and understandable. It combines a responsive browser interface with a Java service and a relational database, while keeping the review focused on the principal responsibilities of these components."
+    ],
+    [
+      17,
+      720,
+      701,
+      "4.2 System Architecture"
+    ],
+    [
+      17,
+      691,
+      640,
+      "The architecture separates presentation, application processing and persistence. Security checks protect the communication between the browser and the backend. Figure 3 presents the selected technologies and their roles at a basic review level."
+    ],
+    [
+      17,
+      622,
+      603,
+      "Architecture Components"
+    ],
+    [
+      17,
+      593,
+      525,
+      "<b>User interface:</b> React and TypeScript provide pages and forms; Vite and Tailwind CSS support development and styling. <b>Application logic:</b> Spring Boot processes requests and applies the platform's rules. <b>Storage:</b> Spring Data JPA manages PostgreSQL records. <b>Security:</b> Spring Security restricts authenticated operations."
+    ],
+    [
+      17,
+      515,
+      165,
+      ""
+    ],
+    [
+      17,
+      159,
+      143,
+      "Figure 3. System architecture and technology layers"
+    ],
+    [
+      17,
+      131,
+      80,
+      "The browser sends requests to the Java service and displays the returned information. The service checks the user and requested action before accessing the database. Public event responses are separated from private registrations and administrative information."
+    ],
+    [
+      18,
+      720,
+      701,
+      "4.3 System File Structure"
+    ],
+    [
+      18,
+      691,
+      640,
+      "The repository separates frontend code, backend code and supporting files. The following abbreviated tree retains the main implemented paths and shows how the two application layers are organized. Detailed source listings are not required for this overview."
+    ],
+    [
+      18,
+      630,
+      613,
+      "Campus Commons/"
+    ],
+    [
+      18,
+      613,
+      596,
+      "frontend/"
+    ],
+    [
+      18,
+      596,
+      579,
+      "src/"
+    ],
+    [
+      18,
+      579,
+      562,
+      "main.tsx, api.ts, auth.tsx, types.ts"
+    ],
+    [
+      18,
+      562,
+      545,
+      "pages/"
+    ],
+    [
+      18,
+      545,
+      528,
+      "Discovery.tsx, EventDetail.tsx, Clubs.tsx"
+    ],
+    [
+      18,
+      528,
+      511,
+      "AuthPages.tsx, Student.tsx, Profile.tsx"
+    ],
+    [
+      18,
+      511,
+      494,
+      "ClubWorkspace.tsx, EventEditor.tsx, Admin.tsx"
+    ],
+    [
+      18,
+      494,
+      477,
+      "components/ - shared controls and layout"
+    ],
+    [
+      18,
+      477,
+      460,
+      "styles/ - responsive presentation"
+    ],
+    [
+      18,
+      460,
+      443,
+      "backend/"
+    ],
+    [
+      18,
+      443,
+      426,
+      "pom.xml"
+    ],
+    [
+      18,
+      426,
+      409,
+      "src/main/java/edu/campus/"
+    ],
+    [
+      18,
+      409,
+      392,
+      "CampusApplication.java, SecurityConfig.java"
+    ],
+    [
+      18,
+      392,
+      375,
+      "AuthController.java, CatalogController.java"
+    ],
+    [
+      18,
+      375,
+      358,
+      "AdminController.java, RuntimeController.java"
+    ],
+    [
+      18,
+      358,
+      341,
+      "AuthService.java, CatalogService.java"
+    ],
+    [
+      18,
+      341,
+      324,
+      "RegistrationService.java, Repositories.java"
+    ],
+    [
+      18,
+      324,
+      307,
+      "User.java, Club.java, Event.java"
+    ],
+    [
+      18,
+      307,
+      290,
+      "Membership.java, Registration.java"
+    ],
+    [
+      18,
+      290,
+      273,
+      "Payment.java, ResetToken.java, PaymentProvider.java"
+    ],
+    [
+      18,
+      273,
+      256,
+      "src/main/resources/"
+    ],
+    [
+      18,
+      256,
+      239,
+      "application.properties"
+    ],
+    [
+      18,
+      239,
+      222,
+      "db/migration/ - database schema changes"
+    ],
+    [
+      18,
+      222,
+      205,
+      "docs/ - product and technical documentation"
+    ],
+    [
+      18,
+      205,
+      188,
+      "scripts/ - project commands"
+    ],
+    [
+      18,
+      188,
+      171,
+      "README.md"
+    ],
+    [
+      18,
+      171,
+      159,
+      ""
+    ],
+    [
+      18,
+      159,
+      125,
+      "Frontend pages correspond to student, club and administrator tasks. Backend controllers, services and data classes support the same functional areas, making their relationship easier to review."
+    ],
+    [
+      19,
+      720,
+      701,
+      "1. Frontend Layer"
+    ],
+    [
+      19,
+      691,
+      640,
+      "The frontend handles presentation, navigation and user interaction. React pages organize the event catalog, club directory, account forms and role-specific workspaces. TypeScript models describe the information exchanged with the backend."
+    ],
+    [
+      19,
+      630,
+      579,
+      "Reusable controls provide labelled fields, dialogs, loading states and error messages. Tailwind CSS and project styles support consistent layouts on different screen sizes. The API helper connects user actions to the corresponding backend requests."
+    ],
+    [
+      19,
+      561,
+      542,
+      "2. Backend Layer"
+    ],
+    [
+      19,
+      532,
+      481,
+      "The backend is implemented in Java using Spring Boot. Controllers receive requests and return structured responses. Services apply rules for approval, ownership, event publication and registration. This keeps the application's decisions separate from the visual interface."
+    ],
+    [
+      19,
+      471,
+      420,
+      "Spring Data JPA supports retrieval and updating of persistent records. Data classes represent users, clubs, events, memberships, registrations and payment information. PostgreSQL retains these records, while schema migration files document the database structure."
+    ],
+    [
+      19,
+      402,
+      383,
+      "3. Security &amp; Integration"
+    ],
+    [
+      19,
+      373,
+      322,
+      "Spring Security manages authenticated access. Students can inspect their own registrations, clubs can manage their own events, and administrators receive review and moderation controls. The service checks these permissions when handling a request."
+    ],
+    [
+      19,
+      312,
+      261,
+      "The API layer connects React to Spring Boot. The frontend reports the result of an operation after the backend has processed it. This arrangement avoids relying on browser controls alone to protect records or determine event availability."
+    ],
+    [
+      19,
+      251,
+      200,
+      "A separate payment-provider interface supports the fee-related part of registration. The current implementation uses a development simulator. PostgreSQL may be hosted locally or through Supabase, while account access and application rules remain in the Java backend."
+    ],
+    [
+      20,
+      720,
+      701,
+      "4.4 Key System Components"
+    ],
+    [
+      20,
+      691,
+      657,
+      "The platform consists of five related functional components. Each component has a clear responsibility and shares the records needed to complete the college event-management process."
+    ],
+    [
+      20,
+      639,
+      620,
+      "1. Identity and Profile Module"
+    ],
+    [
+      20,
+      610,
+      559,
+      "This component supports signup, login, logout and profile maintenance. Students provide basic college details used in event eligibility. The frontend collects information through labelled forms, while the backend validates it and controls access to the account."
+    ],
+    [
+      20,
+      541,
+      522,
+      "2. Club Module"
+    ],
+    [
+      20,
+      512,
+      461,
+      "Clubs maintain their names, descriptions, categories and contact information. Students can browse approved clubs and join or leave them. Administrative approval controls publication privileges, separating organization review from ordinary student participation."
+    ],
+    [
+      20,
+      443,
+      424,
+      "3. Event Module"
+    ],
+    [
+      20,
+      414,
+      363,
+      "Clubs create, edit and publish events with a date, venue, capacity, fee and eligibility conditions. The public interface presents these details for discovery. The backend checks ownership and publication status so that an organizer manages only its own activities."
+    ],
+    [
+      20,
+      345,
+      326,
+      "4. Registration and Payment Module"
+    ],
+    [
+      20,
+      316,
+      248,
+      "Students register for eligible events and view the resulting status. Free events are confirmed directly. Fee-based events use the available simulated payment facility, which records the outcome without collecting money. Cancellation and registration history remain connected to the event record."
+    ],
+    [
+      20,
+      230,
+      211,
+      "5. Dashboard and Administration Module"
+    ],
+    [
+      20,
+      201,
+      133,
+      "Student dashboards present commitments and memberships. Club workspaces present owned events and participant records. Administrative screens support user review, club approval and event moderation. Together, these views make the same underlying information accessible according to each role's responsibility."
+    ]
+  ],
+  "source": "College_Event_Management_Project_Report_Times_New_Roman.pdf",
+  "scope_end": "4.4 Key System Components",
+  "template_last_page": 30
+}
